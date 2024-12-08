@@ -1,13 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
       <div className="container mx-auto flex flex-col items-center">
         {/* Add Image */}
-        <img
+        <Image
           src="/G7.png"
           alt="Footer Logo"
-          className="`w-(1440px) h-(555px) rounded-lg object-cover"
+          width={1440} 
+          height={555} 
+          className="rounded-lg object-cover"
         />
 
         {/* Footer Text */}
